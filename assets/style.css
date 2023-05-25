@@ -1,0 +1,31 @@
+:root {
+  --lt-blu: lightblue;
+}
+header {
+  padding: 3%;
+  text-align: center;
+  background-color: var(--lt-blu);
+}
+main {
+  display: flex;
+  justify-content: space-around;
+}
+legend {
+  background-color: var(--lt-blu);
+  padding-left: 1%;
+}
+legend > p {
+}
+aside {
+  margin-top: 2%;
+  border: 1px solid lightgrey;
+  border-radius: 2%;
+}
+
+.custom-btn {
+  width: 100%;
+  text-align: left;
+}
+#instructions {
+  width: 33%;
+}

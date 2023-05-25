@@ -24,10 +24,19 @@ legend {
 p {
   padding: 2%;
 }
+.add-project-container {
+  padding: 1%;
+  background-color: var(--lt-blu);
+}
+.card {
+  margin-bottom: 2%;
+}
 li {
   width: 100%;
   text-align: left;
-  border: 1px solid;
+}
+.custom-btn {
+  width: 100%;
 }
 table {
   width: 100%;

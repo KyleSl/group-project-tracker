@@ -17,7 +17,11 @@ function saveProjects (projects){
     localStorage.setItem("projects", JSON.stringify(projects));
 }
 
+// TODO
+// Displays the current date and time at the top of the page
+// Used with setInterval()
 function time (){
+
 }
 
 // Removes a single project from the array and saves the new array to local storage
@@ -33,10 +37,20 @@ function removeProject (name){
     updateDisplay();
 }
 
+// TODO
+// Updates the display to show all the current projects
 function updateDisplay (){
 
 }
 
+// Adds a project to local storage
+// Will be used to handle an event
 function addProject (){
+    var projects = loadProjects();
+    var newProject = {name: nameEl.val(), type: typeEl.val(), due: dueEl.val()}
 
+    projects.push(newProject);
+
+    saveProjects(projects);
+    updateDisplay();
 }

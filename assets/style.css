@@ -4,15 +4,16 @@
 header {
   padding: 3%;
   text-align: center;
-  background-color: var(--lt-blu);
+  background-color: #2c3e4f;
 }
 main {
   display: flex;
   justify-content: space-around;
 }
 legend {
-  background-color: var(--lt-blu);
+  background-color: #2c3e4f;
   padding-left: 1%;
+  color:ghostwhite
 }
 
 aside {

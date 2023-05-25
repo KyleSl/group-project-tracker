@@ -9,13 +9,6 @@ header {
 main {
   display: flex;
   justify-content: space-around;
-}
-legend {
-  background-color: var(--lt-blu);
-  padding-left: 1%;
-  border-radius: 5%;
-}
-main {
   margin-top: 2%;
 }
 aside {
@@ -23,14 +16,19 @@ aside {
   border: 1px solid lightgrey;
   border-radius: 2%;
 }
+legend {
+  background-color: var(--lt-blu);
+  padding-left: 1%;
+  border-radius: 5%;
+}
 p {
   padding: 2%;
 }
-table {
-  width: 100%;
-}
-.custom-btn {
+li {
   width: 100%;
   text-align: left;
   border: 1px solid;
+}
+table {
+  width: 100%;
 }

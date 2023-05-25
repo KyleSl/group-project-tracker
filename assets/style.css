@@ -13,21 +13,24 @@ main {
 legend {
   background-color: var(--lt-blu);
   padding-left: 1%;
+  border-radius: 5%;
 }
-
-aside {
+main {
   margin-top: 2%;
+}
+aside {
+  width: 33%;
   border: 1px solid lightgrey;
   border-radius: 2%;
 }
 p {
   padding: 2%;
 }
+table {
+  width: 100%;
+}
 .custom-btn {
-  width: 90%;
+  width: 100%;
   text-align: left;
   border: 1px solid;
-}
-#instructions {
-  width: 33%;
 }

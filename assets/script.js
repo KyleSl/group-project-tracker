@@ -1,4 +1,5 @@
 var timer = setInterval(time(), 1000);
+var addProject = $("#addProject");
 
 // Pulls projects array from localStorage and returns it
 // If nothing is found
@@ -33,5 +34,9 @@ function removeProject (name){
 }
 
 function updateDisplay (){
+
+}
+
+function addProject (){
 
 }
